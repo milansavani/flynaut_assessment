@@ -1,0 +1,6 @@
+module Pods_FlynautAssessment {
+  umbrella header "Pods-FlynautAssessment-umbrella.h"
+
+  export *
+  module * { export * }
+}

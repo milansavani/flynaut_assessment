@@ -1,0 +1,974 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6A208B555354DF3C68F2117A /* libPods-FlynautAssessment.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D82AB345AD3E4AA43B5F147 /* libPods-FlynautAssessment.a */; };
+		6B5C797729F7BBAC00FAE132 /* Test2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6B5C797329F7BBAC00FAE132 /* Test2.mp4 */; };
+		6B5C797829F7BBAC00FAE132 /* Test3.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6B5C797429F7BBAC00FAE132 /* Test3.mp4 */; };
+		6B5C797A29F7BBC100FAE132 /* UserStory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5C797929F7BBC100FAE132 /* UserStory.swift */; };
+		6B5C797D29F7D78D00FAE132 /* Test4.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6B5C797B29F7D78D00FAE132 /* Test4.mp4 */; };
+		6B5C797E29F7D78D00FAE132 /* Test1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6B5C797C29F7D78D00FAE132 /* Test1.mp4 */; };
+		6B8DF72D29F811EA008594A2 /* MovieListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8DF72C29F811EA008594A2 /* MovieListCell.swift */; };
+		6BFDCDA729F6F334007CA4DA /* StoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BFDCDA629F6F334007CA4DA /* StoryVC.swift */; };
+		6BFDCDAD29F6F6A4007CA4DA /* PreviewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BFDCDAC29F6F6A4007CA4DA /* PreviewVC.swift */; };
+		889E94A829F6B51D0035E15E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889E94A729F6B51D0035E15E /* AppDelegate.swift */; };
+		889E94AC29F6B51D0035E15E /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889E94AB29F6B51D0035E15E /* MainViewController.swift */; };
+		889E94AF29F6B51D0035E15E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 889E94AD29F6B51D0035E15E /* Main.storyboard */; };
+		889E94B229F6B51D0035E15E /* FlynautAssessment.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 889E94B029F6B51D0035E15E /* FlynautAssessment.xcdatamodeld */; };
+		889E94B429F6B51F0035E15E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 889E94B329F6B51F0035E15E /* Assets.xcassets */; };
+		889E94B729F6B51F0035E15E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 889E94B529F6B51F0035E15E /* LaunchScreen.storyboard */; };
+		889E94C229F6B51F0035E15E /* FlynautAssessmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889E94C129F6B51F0035E15E /* FlynautAssessmentTests.swift */; };
+		889E94CC29F6B51F0035E15E /* FlynautAssessmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889E94CB29F6B51F0035E15E /* FlynautAssessmentUITests.swift */; };
+		889E94CE29F6B51F0035E15E /* FlynautAssessmentUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889E94CD29F6B51F0035E15E /* FlynautAssessmentUITestsLaunchTests.swift */; };
+		889E94DE29F6D6810035E15E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889E94DD29F6D6810035E15E /* Constants.swift */; };
+		889E94E329F6D79B0035E15E /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889E94E229F6D79B0035E15E /* UIViewController+Extension.swift */; };
+		889E94E729F6D8200035E15E /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889E94E529F6D8200035E15E /* APIClient.swift */; };
+		889E94E829F6D8200035E15E /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889E94E629F6D8200035E15E /* APIManager.swift */; };
+		889E94F729F6DA430035E15E /* MovieModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889E94F629F6DA430035E15E /* MovieModel.swift */; };
+		889E94F929F6DA8F0035E15E /* MovieListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889E94F829F6DA8F0035E15E /* MovieListViewModel.swift */; };
+		889E94FB29F6DC480035E15E /* MovieListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889E94FA29F6DC480035E15E /* MovieListVC.swift */; };
+		88B7382329F7AFFB000FE02F /* StoryProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B7382229F7AFFB000FE02F /* StoryProgressBar.swift */; };
+		88D4E4CF29F82E85000709AD /* Movie+CoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D4E4CE29F82E85000709AD /* Movie+CoreData.swift */; };
+		88D4E4D229F82F0D000709AD /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D4E4D129F82F0D000709AD /* DataManager.swift */; };
+		A4906B83156E30BF10D3874F /* libPods-FlynautAssessmentTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 22BB5EA8069D58118FBDC449 /* libPods-FlynautAssessmentTests.a */; };
+		BE721F1B0A7D556B7898E03B /* libPods-FlynautAssessment-FlynautAssessmentUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E11CE15EF142A39FE7B742E /* libPods-FlynautAssessment-FlynautAssessmentUITests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		889E94BE29F6B51F0035E15E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 889E949C29F6B51D0035E15E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 889E94A329F6B51D0035E15E;
+			remoteInfo = FlynautAssessment;
+		};
+		889E94C829F6B51F0035E15E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 889E949C29F6B51D0035E15E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 889E94A329F6B51D0035E15E;
+			remoteInfo = FlynautAssessment;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		22BB5EA8069D58118FBDC449 /* libPods-FlynautAssessmentTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FlynautAssessmentTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E11CE15EF142A39FE7B742E /* libPods-FlynautAssessment-FlynautAssessmentUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FlynautAssessment-FlynautAssessmentUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		381A5CAF0912F943A9C0881E /* Pods-FlynautAssessment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlynautAssessment.release.xcconfig"; path = "Target Support Files/Pods-FlynautAssessment/Pods-FlynautAssessment.release.xcconfig"; sourceTree = "<group>"; };
+		4D82AB345AD3E4AA43B5F147 /* libPods-FlynautAssessment.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FlynautAssessment.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		68E8F370D131B515A59653F4 /* Pods-FlynautAssessmentTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlynautAssessmentTests.release.xcconfig"; path = "Target Support Files/Pods-FlynautAssessmentTests/Pods-FlynautAssessmentTests.release.xcconfig"; sourceTree = "<group>"; };
+		6B5C797329F7BBAC00FAE132 /* Test2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Test2.mp4; sourceTree = "<group>"; };
+		6B5C797429F7BBAC00FAE132 /* Test3.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Test3.mp4; sourceTree = "<group>"; };
+		6B5C797929F7BBC100FAE132 /* UserStory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserStory.swift; sourceTree = "<group>"; };
+		6B5C797B29F7D78D00FAE132 /* Test4.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Test4.mp4; sourceTree = "<group>"; };
+		6B5C797C29F7D78D00FAE132 /* Test1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Test1.mp4; sourceTree = "<group>"; };
+		6B8DF72C29F811EA008594A2 /* MovieListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListCell.swift; sourceTree = "<group>"; };
+		6BFDCDA629F6F334007CA4DA /* StoryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryVC.swift; sourceTree = "<group>"; };
+		6BFDCDAC29F6F6A4007CA4DA /* PreviewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewVC.swift; sourceTree = "<group>"; };
+		84E986758113AEF165819AAF /* Pods-FlynautAssessment-FlynautAssessmentUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlynautAssessment-FlynautAssessmentUITests.debug.xcconfig"; path = "Target Support Files/Pods-FlynautAssessment-FlynautAssessmentUITests/Pods-FlynautAssessment-FlynautAssessmentUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		889E94A429F6B51D0035E15E /* FlynautAssessment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlynautAssessment.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		889E94A729F6B51D0035E15E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		889E94AB29F6B51D0035E15E /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		889E94AE29F6B51D0035E15E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		889E94B129F6B51D0035E15E /* FlynautAssessment.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FlynautAssessment.xcdatamodel; sourceTree = "<group>"; };
+		889E94B329F6B51F0035E15E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		889E94B629F6B51F0035E15E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		889E94B829F6B51F0035E15E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		889E94BD29F6B51F0035E15E /* FlynautAssessmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlynautAssessmentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		889E94C129F6B51F0035E15E /* FlynautAssessmentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlynautAssessmentTests.swift; sourceTree = "<group>"; };
+		889E94C729F6B51F0035E15E /* FlynautAssessmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlynautAssessmentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		889E94CB29F6B51F0035E15E /* FlynautAssessmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlynautAssessmentUITests.swift; sourceTree = "<group>"; };
+		889E94CD29F6B51F0035E15E /* FlynautAssessmentUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlynautAssessmentUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		889E94DD29F6D6810035E15E /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		889E94E229F6D79B0035E15E /* UIViewController+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		889E94E529F6D8200035E15E /* APIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		889E94E629F6D8200035E15E /* APIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		889E94F629F6DA430035E15E /* MovieModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieModel.swift; sourceTree = "<group>"; };
+		889E94F829F6DA8F0035E15E /* MovieListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieListViewModel.swift; sourceTree = "<group>"; };
+		889E94FA29F6DC480035E15E /* MovieListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieListVC.swift; sourceTree = "<group>"; };
+		88B7382229F7AFFB000FE02F /* StoryProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryProgressBar.swift; sourceTree = "<group>"; };
+		88D4E4CE29F82E85000709AD /* Movie+CoreData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Movie+CoreData.swift"; sourceTree = "<group>"; };
+		88D4E4D129F82F0D000709AD /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		8C590146A4CB9B15395916F5 /* Pods-FlynautAssessmentTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlynautAssessmentTests.debug.xcconfig"; path = "Target Support Files/Pods-FlynautAssessmentTests/Pods-FlynautAssessmentTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BF65C2EC6B7584650DF4BEC8 /* Pods-FlynautAssessment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlynautAssessment.debug.xcconfig"; path = "Target Support Files/Pods-FlynautAssessment/Pods-FlynautAssessment.debug.xcconfig"; sourceTree = "<group>"; };
+		CBD6B2D806A76A5C3AB26042 /* Pods-FlynautAssessment-FlynautAssessmentUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlynautAssessment-FlynautAssessmentUITests.release.xcconfig"; path = "Target Support Files/Pods-FlynautAssessment-FlynautAssessmentUITests/Pods-FlynautAssessment-FlynautAssessmentUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		889E94A129F6B51D0035E15E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A208B555354DF3C68F2117A /* libPods-FlynautAssessment.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		889E94BA29F6B51F0035E15E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4906B83156E30BF10D3874F /* libPods-FlynautAssessmentTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		889E94C429F6B51F0035E15E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE721F1B0A7D556B7898E03B /* libPods-FlynautAssessment-FlynautAssessmentUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		027BDF5C5E025CBA301F8D47 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4D82AB345AD3E4AA43B5F147 /* libPods-FlynautAssessment.a */,
+				2E11CE15EF142A39FE7B742E /* libPods-FlynautAssessment-FlynautAssessmentUITests.a */,
+				22BB5EA8069D58118FBDC449 /* libPods-FlynautAssessmentTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		889E949B29F6B51D0035E15E = {
+			isa = PBXGroup;
+			children = (
+				889E94A629F6B51D0035E15E /* FlynautAssessment */,
+				889E94C029F6B51F0035E15E /* FlynautAssessmentTests */,
+				889E94CA29F6B51F0035E15E /* FlynautAssessmentUITests */,
+				889E94A529F6B51D0035E15E /* Products */,
+				8EC041EBE4EC24135366EFD4 /* Pods */,
+				027BDF5C5E025CBA301F8D47 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		889E94A529F6B51D0035E15E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				889E94A429F6B51D0035E15E /* FlynautAssessment.app */,
+				889E94BD29F6B51F0035E15E /* FlynautAssessmentTests.xctest */,
+				889E94C729F6B51F0035E15E /* FlynautAssessmentUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		889E94A629F6B51D0035E15E /* FlynautAssessment */ = {
+			isa = PBXGroup;
+			children = (
+				889E94B829F6B51F0035E15E /* Info.plist */,
+				889E94B029F6B51D0035E15E /* FlynautAssessment.xcdatamodeld */,
+				88D4E4D029F82EC6000709AD /* CoreDataStorage */,
+				889E94DB29F6D6040035E15E /* ApplicationDelegate */,
+				889E94DA29F6D54A0035E15E /* Resources */,
+				889E94DC29F6D6570035E15E /* Common */,
+				889E94AB29F6B51D0035E15E /* MainViewController.swift */,
+				889E94E929F6D9290035E15E /* App Modules */,
+				889E94E429F6D8090035E15E /* Network Manager */,
+				889E94DF29F6D7360035E15E /* Storyboard */,
+				889E94E029F6D7670035E15E /* Extensions */,
+			);
+			path = FlynautAssessment;
+			sourceTree = "<group>";
+		};
+		889E94C029F6B51F0035E15E /* FlynautAssessmentTests */ = {
+			isa = PBXGroup;
+			children = (
+				889E94C129F6B51F0035E15E /* FlynautAssessmentTests.swift */,
+			);
+			path = FlynautAssessmentTests;
+			sourceTree = "<group>";
+		};
+		889E94CA29F6B51F0035E15E /* FlynautAssessmentUITests */ = {
+			isa = PBXGroup;
+			children = (
+				889E94CB29F6B51F0035E15E /* FlynautAssessmentUITests.swift */,
+				889E94CD29F6B51F0035E15E /* FlynautAssessmentUITestsLaunchTests.swift */,
+			);
+			path = FlynautAssessmentUITests;
+			sourceTree = "<group>";
+		};
+		889E94DA29F6D54A0035E15E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6B5C797C29F7D78D00FAE132 /* Test1.mp4 */,
+				6B5C797329F7BBAC00FAE132 /* Test2.mp4 */,
+				6B5C797429F7BBAC00FAE132 /* Test3.mp4 */,
+				6B5C797B29F7D78D00FAE132 /* Test4.mp4 */,
+				889E94B329F6B51F0035E15E /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		889E94DB29F6D6040035E15E /* ApplicationDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				889E94A729F6B51D0035E15E /* AppDelegate.swift */,
+			);
+			path = ApplicationDelegate;
+			sourceTree = "<group>";
+		};
+		889E94DC29F6D6570035E15E /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				889E94DD29F6D6810035E15E /* Constants.swift */,
+				88B7381D29F7A54F000FE02F /* Views */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		889E94DF29F6D7360035E15E /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				889E94AD29F6B51D0035E15E /* Main.storyboard */,
+				889E94B529F6B51F0035E15E /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		889E94E029F6D7670035E15E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				889E94E129F6D7870035E15E /* UIExtension */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		889E94E129F6D7870035E15E /* UIExtension */ = {
+			isa = PBXGroup;
+			children = (
+				889E94E229F6D79B0035E15E /* UIViewController+Extension.swift */,
+			);
+			path = UIExtension;
+			sourceTree = "<group>";
+		};
+		889E94E429F6D8090035E15E /* Network Manager */ = {
+			isa = PBXGroup;
+			children = (
+				889E94E529F6D8200035E15E /* APIClient.swift */,
+				889E94E629F6D8200035E15E /* APIManager.swift */,
+			);
+			path = "Network Manager";
+			sourceTree = "<group>";
+		};
+		889E94E929F6D9290035E15E /* App Modules */ = {
+			isa = PBXGroup;
+			children = (
+				889E94EC29F6D9910035E15E /* StoryModule */,
+				889E94ED29F6D9A20035E15E /* MovieModule */,
+			);
+			path = "App Modules";
+			sourceTree = "<group>";
+		};
+		889E94EC29F6D9910035E15E /* StoryModule */ = {
+			isa = PBXGroup;
+			children = (
+				889E94EF29F6D9BC0035E15E /* ViewController */,
+				889E94F229F6D9E90035E15E /* Model */,
+			);
+			path = StoryModule;
+			sourceTree = "<group>";
+		};
+		889E94ED29F6D9A20035E15E /* MovieModule */ = {
+			isa = PBXGroup;
+			children = (
+				889E94EE29F6D9B40035E15E /* ViewController */,
+				889E94F329F6DA010035E15E /* Cell */,
+				889E94F429F6DA080035E15E /* ViewModel */,
+				889E94F529F6DA100035E15E /* Model */,
+			);
+			path = MovieModule;
+			sourceTree = "<group>";
+		};
+		889E94EE29F6D9B40035E15E /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				889E94FA29F6DC480035E15E /* MovieListVC.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		889E94EF29F6D9BC0035E15E /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				6BFDCDA629F6F334007CA4DA /* StoryVC.swift */,
+				6BFDCDAC29F6F6A4007CA4DA /* PreviewVC.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		889E94F229F6D9E90035E15E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6B5C797929F7BBC100FAE132 /* UserStory.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		889E94F329F6DA010035E15E /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				6B8DF72C29F811EA008594A2 /* MovieListCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		889E94F429F6DA080035E15E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				889E94F829F6DA8F0035E15E /* MovieListViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		889E94F529F6DA100035E15E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				889E94F629F6DA430035E15E /* MovieModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		88B7381D29F7A54F000FE02F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				88B7382229F7AFFB000FE02F /* StoryProgressBar.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		88D4E4D029F82EC6000709AD /* CoreDataStorage */ = {
+			isa = PBXGroup;
+			children = (
+				88D4E4D129F82F0D000709AD /* DataManager.swift */,
+				88D4E4CE29F82E85000709AD /* Movie+CoreData.swift */,
+			);
+			path = CoreDataStorage;
+			sourceTree = "<group>";
+		};
+		8EC041EBE4EC24135366EFD4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BF65C2EC6B7584650DF4BEC8 /* Pods-FlynautAssessment.debug.xcconfig */,
+				381A5CAF0912F943A9C0881E /* Pods-FlynautAssessment.release.xcconfig */,
+				84E986758113AEF165819AAF /* Pods-FlynautAssessment-FlynautAssessmentUITests.debug.xcconfig */,
+				CBD6B2D806A76A5C3AB26042 /* Pods-FlynautAssessment-FlynautAssessmentUITests.release.xcconfig */,
+				8C590146A4CB9B15395916F5 /* Pods-FlynautAssessmentTests.debug.xcconfig */,
+				68E8F370D131B515A59653F4 /* Pods-FlynautAssessmentTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		889E94A329F6B51D0035E15E /* FlynautAssessment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 889E94D129F6B51F0035E15E /* Build configuration list for PBXNativeTarget "FlynautAssessment" */;
+			buildPhases = (
+				06A812B6997D4EF56F7AFA2A /* [CP] Check Pods Manifest.lock */,
+				889E94A029F6B51D0035E15E /* Sources */,
+				889E94A129F6B51D0035E15E /* Frameworks */,
+				889E94A229F6B51D0035E15E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlynautAssessment;
+			productName = FlynautAssessment;
+			productReference = 889E94A429F6B51D0035E15E /* FlynautAssessment.app */;
+			productType = "com.apple.product-type.application";
+		};
+		889E94BC29F6B51F0035E15E /* FlynautAssessmentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 889E94D429F6B51F0035E15E /* Build configuration list for PBXNativeTarget "FlynautAssessmentTests" */;
+			buildPhases = (
+				00B4D6F1D00842EB9DD01928 /* [CP] Check Pods Manifest.lock */,
+				889E94B929F6B51F0035E15E /* Sources */,
+				889E94BA29F6B51F0035E15E /* Frameworks */,
+				889E94BB29F6B51F0035E15E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				889E94BF29F6B51F0035E15E /* PBXTargetDependency */,
+			);
+			name = FlynautAssessmentTests;
+			productName = FlynautAssessmentTests;
+			productReference = 889E94BD29F6B51F0035E15E /* FlynautAssessmentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		889E94C629F6B51F0035E15E /* FlynautAssessmentUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 889E94D729F6B51F0035E15E /* Build configuration list for PBXNativeTarget "FlynautAssessmentUITests" */;
+			buildPhases = (
+				D244F9CBF2D2B1468B982B12 /* [CP] Check Pods Manifest.lock */,
+				889E94C329F6B51F0035E15E /* Sources */,
+				889E94C429F6B51F0035E15E /* Frameworks */,
+				889E94C529F6B51F0035E15E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				889E94C929F6B51F0035E15E /* PBXTargetDependency */,
+			);
+			name = FlynautAssessmentUITests;
+			productName = FlynautAssessmentUITests;
+			productReference = 889E94C729F6B51F0035E15E /* FlynautAssessmentUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		889E949C29F6B51D0035E15E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					889E94A329F6B51D0035E15E = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					889E94BC29F6B51F0035E15E = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 889E94A329F6B51D0035E15E;
+					};
+					889E94C629F6B51F0035E15E = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 889E94A329F6B51D0035E15E;
+					};
+				};
+			};
+			buildConfigurationList = 889E949F29F6B51D0035E15E /* Build configuration list for PBXProject "FlynautAssessment" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 889E949B29F6B51D0035E15E;
+			productRefGroup = 889E94A529F6B51D0035E15E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				889E94A329F6B51D0035E15E /* FlynautAssessment */,
+				889E94BC29F6B51F0035E15E /* FlynautAssessmentTests */,
+				889E94C629F6B51F0035E15E /* FlynautAssessmentUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		889E94A229F6B51D0035E15E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B5C797E29F7D78D00FAE132 /* Test1.mp4 in Resources */,
+				6B5C797D29F7D78D00FAE132 /* Test4.mp4 in Resources */,
+				6B5C797729F7BBAC00FAE132 /* Test2.mp4 in Resources */,
+				6B5C797829F7BBAC00FAE132 /* Test3.mp4 in Resources */,
+				889E94B729F6B51F0035E15E /* LaunchScreen.storyboard in Resources */,
+				889E94B429F6B51F0035E15E /* Assets.xcassets in Resources */,
+				889E94AF29F6B51D0035E15E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		889E94BB29F6B51F0035E15E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		889E94C529F6B51F0035E15E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00B4D6F1D00842EB9DD01928 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FlynautAssessmentTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		06A812B6997D4EF56F7AFA2A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FlynautAssessment-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D244F9CBF2D2B1468B982B12 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FlynautAssessment-FlynautAssessmentUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		889E94A029F6B51D0035E15E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				889E94F729F6DA430035E15E /* MovieModel.swift in Sources */,
+				6BFDCDAD29F6F6A4007CA4DA /* PreviewVC.swift in Sources */,
+				889E94FB29F6DC480035E15E /* MovieListVC.swift in Sources */,
+				889E94AC29F6B51D0035E15E /* MainViewController.swift in Sources */,
+				88D4E4CF29F82E85000709AD /* Movie+CoreData.swift in Sources */,
+				88B7382329F7AFFB000FE02F /* StoryProgressBar.swift in Sources */,
+				889E94F929F6DA8F0035E15E /* MovieListViewModel.swift in Sources */,
+				889E94A829F6B51D0035E15E /* AppDelegate.swift in Sources */,
+				88D4E4D229F82F0D000709AD /* DataManager.swift in Sources */,
+				6BFDCDA729F6F334007CA4DA /* StoryVC.swift in Sources */,
+				889E94B229F6B51D0035E15E /* FlynautAssessment.xcdatamodeld in Sources */,
+				6B5C797A29F7BBC100FAE132 /* UserStory.swift in Sources */,
+				889E94E329F6D79B0035E15E /* UIViewController+Extension.swift in Sources */,
+				889E94DE29F6D6810035E15E /* Constants.swift in Sources */,
+				889E94E729F6D8200035E15E /* APIClient.swift in Sources */,
+				889E94E829F6D8200035E15E /* APIManager.swift in Sources */,
+				6B8DF72D29F811EA008594A2 /* MovieListCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		889E94B929F6B51F0035E15E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				889E94C229F6B51F0035E15E /* FlynautAssessmentTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		889E94C329F6B51F0035E15E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				889E94CE29F6B51F0035E15E /* FlynautAssessmentUITestsLaunchTests.swift in Sources */,
+				889E94CC29F6B51F0035E15E /* FlynautAssessmentUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		889E94BF29F6B51F0035E15E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 889E94A329F6B51D0035E15E /* FlynautAssessment */;
+			targetProxy = 889E94BE29F6B51F0035E15E /* PBXContainerItemProxy */;
+		};
+		889E94C929F6B51F0035E15E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 889E94A329F6B51D0035E15E /* FlynautAssessment */;
+			targetProxy = 889E94C829F6B51F0035E15E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		889E94AD29F6B51D0035E15E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				889E94AE29F6B51D0035E15E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		889E94B529F6B51F0035E15E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				889E94B629F6B51F0035E15E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		889E94CF29F6B51F0035E15E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		889E94D029F6B51F0035E15E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		889E94D229F6B51F0035E15E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF65C2EC6B7584650DF4BEC8 /* Pods-FlynautAssessment.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FlynautAssessment/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.flynaut.assessment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		889E94D329F6B51F0035E15E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 381A5CAF0912F943A9C0881E /* Pods-FlynautAssessment.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FlynautAssessment/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.flynaut.assessment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		889E94D529F6B51F0035E15E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C590146A4CB9B15395916F5 /* Pods-FlynautAssessmentTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.flynaut.assessment.FlynautAssessmentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlynautAssessment.app/FlynautAssessment";
+			};
+			name = Debug;
+		};
+		889E94D629F6B51F0035E15E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68E8F370D131B515A59653F4 /* Pods-FlynautAssessmentTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.flynaut.assessment.FlynautAssessmentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlynautAssessment.app/FlynautAssessment";
+			};
+			name = Release;
+		};
+		889E94D829F6B51F0035E15E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84E986758113AEF165819AAF /* Pods-FlynautAssessment-FlynautAssessmentUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.flynaut.assessment.FlynautAssessmentUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FlynautAssessment;
+			};
+			name = Debug;
+		};
+		889E94D929F6B51F0035E15E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBD6B2D806A76A5C3AB26042 /* Pods-FlynautAssessment-FlynautAssessmentUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.flynaut.assessment.FlynautAssessmentUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FlynautAssessment;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		889E949F29F6B51D0035E15E /* Build configuration list for PBXProject "FlynautAssessment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				889E94CF29F6B51F0035E15E /* Debug */,
+				889E94D029F6B51F0035E15E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		889E94D129F6B51F0035E15E /* Build configuration list for PBXNativeTarget "FlynautAssessment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				889E94D229F6B51F0035E15E /* Debug */,
+				889E94D329F6B51F0035E15E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		889E94D429F6B51F0035E15E /* Build configuration list for PBXNativeTarget "FlynautAssessmentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				889E94D529F6B51F0035E15E /* Debug */,
+				889E94D629F6B51F0035E15E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		889E94D729F6B51F0035E15E /* Build configuration list for PBXNativeTarget "FlynautAssessmentUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				889E94D829F6B51F0035E15E /* Debug */,
+				889E94D929F6B51F0035E15E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		889E94B029F6B51D0035E15E /* FlynautAssessment.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				889E94B129F6B51D0035E15E /* FlynautAssessment.xcdatamodel */,
+			);
+			currentVersion = 889E94B129F6B51D0035E15E /* FlynautAssessment.xcdatamodel */;
+			path = FlynautAssessment.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 889E949C29F6B51D0035E15E /* Project object */;
+}
